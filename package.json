@@ -3,13 +3,36 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fullcalendar/core": "^6.1.14",
+    "@fullcalendar/daygrid": "^6.1.14",
+    "@fullcalendar/interaction": "^6.1.14",
+    "@fullcalendar/list": "^6.1.14",
+    "@fullcalendar/react": "^6.1.14",
+    "@fullcalendar/timegrid": "^6.1.14",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
+    "@mui/x-data-grid": "^7.7.1",
+    "@nivo/bar": "^0.87.0",
+    "@nivo/core": "^0.87.0",
+    "@nivo/geo": "^0.87.0",
+    "@nivo/line": "^0.87.0",
+    "@nivo/pie": "^0.87.0",
+    "@svgr/webpack": "^8.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "formik": "^2.4.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-pro-sidebar": "^0.7.1",
+    "react-router-dom": "^6.24.0",
+    "react-scripts": "^5.0.1",
+    "resolve-url-loader": "^5.0.0",
+    "svgo": "^3.3.2",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +57,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.1.1",
+    "html-webpack-plugin": "^5.6.0"
   }
 }
